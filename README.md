@@ -1,27 +1,40 @@
-# AngularTechsLogos
+# angular-techs-logos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+A list with logos company and techs
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<img alt="A list with logos company and techs screenshot" width="100%" src="https://raw.githubusercontent.com/criar-art/angular-techs-logos/master/public/screen-angular-techs-logos.png" />
 
-## Code scaffolding
+Install
+```bash
+npm install angular-techs-logos
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Usage basic
+```ts
+import VueTechsLogs from 'angular-techs-logos';
+```
 
-## Build
+```html
+<!-- list all logos -->
+<angular-techs-logos />
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<!-- single icon -->
+<angular-techs-logos name="javascript" />
 
-## Running unit tests
+<!-- list limited logos -->
+<angular-techs-logos [list]="['angular','javascript', 'react', 'angular']" />
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<!-- list all logos with hiddenLogos -->
+<angular-techs-logos [hiddenLogos]="['angular','javascript', 'react', 'angular', 'android']" />
 
-## Running end-to-end tests
+<!-- Hidden label -->
+<angular-techs-logos name="javascript" [hiddenLabel]="true" />
+<angular-techs-logos [hiddenLabel]="true" />
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<!-- single change label name -->
+<angular-techs-logos name="javascript" label="New JavaScript" />
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<!-- Modification of size component -->
+<angular-techs-logos name="javascript" size="220px" />
+```

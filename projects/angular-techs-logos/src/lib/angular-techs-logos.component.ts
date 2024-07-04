@@ -19,7 +19,7 @@ interface Tech {
 }
 
 @Component({
-  selector: 'lib-angular-techs-logos',
+  selector: 'angular-techs-logos',
   templateUrl: './angular-techs-logos.component.html',
   styleUrls: ['./angular-techs-logos.component.scss'],
   encapsulation: ViewEncapsulation.None,
