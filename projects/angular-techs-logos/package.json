@@ -2,6 +2,11 @@
   "name": "angular-techs-logos",
   "version": "0.1.13",
   "public": true,
+  "author": "lucasferreiralimax (https://github.com/lucasferreiralimax)",
+  "repository": "https://github.com/criar-art/angular-techs-logos",
+  "bugs": {
+    "url": "https://github.com/criar-art/angular-techs-logos/issues"
+  },
   "peerDependencies": {
     "@angular/common": "^18.0.0",
     "@angular/core": "^18.0.0"
