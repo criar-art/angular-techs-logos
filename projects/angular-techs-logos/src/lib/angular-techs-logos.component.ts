@@ -11,12 +11,7 @@ import {
   signal
 } from '@angular/core';
 
-import { techs } from './techs/techs-data';
-
-interface Tech {
-  name: string;
-  icon: Type<any>;
-}
+import { techs, Tech } from './techs/techs-data';
 
 @Component({
   selector: 'angular-techs-logos',

@@ -140,7 +140,7 @@ import { CobolComponent } from './cobol/cobol.component';
 import { FirefoxComponent } from './firefox/firefox.component';
 import { MaxComponent } from './max/max.component';
 
-interface Tech {
+export interface Tech {
   name: string;
   icon: Type<any>;
   url: string;

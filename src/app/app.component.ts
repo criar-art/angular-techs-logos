@@ -1,16 +1,11 @@
-import { Component, Renderer2, Type, signal, effect } from '@angular/core';
+import { Component, Renderer2, signal, effect } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { AngularTechsLogosModule, techs } from 'angular-techs-logos';
+import { AngularTechsLogosModule, techs, Tech } from 'angular-techs-logos';
 import { AppHeaderComponent } from './components/app-header/app-header.component';
 import { ModalinstallComponent } from './components/modal-install/modal-install.component';
 import { DarkmodeComponent } from './components/darkmode/darkmode.component';
 import { AppFooterComponent } from './components/app-footer/app-footer.component';
 import { FormsModule } from '@angular/forms';
-
-interface Tech {
-  name: string;
-  icon: Type<any>;
-}
 
 @Component({
   selector: 'app-root',
