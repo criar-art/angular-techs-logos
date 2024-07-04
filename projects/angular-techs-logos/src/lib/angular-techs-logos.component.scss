@@ -1,0 +1,105 @@
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  .title {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
+
+figure.tech-container {
+  background: transparent;
+  border: 1px solid var(--vtl-background);
+  border-radius: 100px;
+  width: 120px !important;
+  height: 120px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: .3s all;
+  &:hover {
+    background: var(--vtl-background);
+    border-color: var(--vtl-background);
+    transform: scale(1.1);
+  }
+  svg {
+    height: 50px;
+    margin-bottom: .2rem;
+  }
+}
+
+figure {
+  position: relative;
+  text-align: center;
+  margin: .2rem;
+  figcaption {
+    font-size: .7rem;
+    &.tooltip {
+      position: absolute;
+      bottom: 2%;
+      background: var(--vtl-background-tooltip);
+      box-shadow: 0 4px 10px var(--vtl-shadow-tooltip);
+      padding: 0.2rem 0.5rem;
+      border-radius: 5px;
+      pointer-events: none;
+      opacity: 0;
+      transition: .3s all;
+      color: #fff;
+    }
+  }
+  &:hover {
+    figcaption.tooltip {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+}
+
+body {
+  --vtl-background: rgba(0,0,0, .05);
+  --vtl-background-tooltip: #444;
+  --vtl-shadow-tooltip: rgba(0,0,0,.2);
+  --vtl-text: #000;
+  --vtl-background-svg: #000;
+  --vtl-background-svg-invert: #fff;
+  --vtl-background-gradient: linear-gradient(228deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 60%);
+}
+
+body.darkmode {
+  --vtl-background: rgba(0,0,0, .5);
+  --vtl-background-tooltip: #444;
+  --vtl-shadow-tooltip: rgba(0,0,0,.2);
+  --vtl-text: #fff;
+  --vtl-background-svg: #fff;
+  --vtl-background-svg-invert: #000;
+  --vtl-background-gradient: linear-gradient(228deg, rgb(24, 24, 24) 0%, rgb(38, 38, 38) 60%);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --vtl-background: rgba(0,0,0, .05);
+    --vtl-background-tooltip: #444;
+    --vtl-shadow-tooltip: rgba(0,0,0,.2);
+    --vtl-text: #000;
+    --vtl-background-svg: #000;
+    --vtl-background-svg-invert: #fff;
+    --vtl-background-gradient: linear-gradient(228deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 60%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --vtl-background: rgba(0,0,0, .5);
+    --vtl-background-tooltip: #444;
+    --vtl-shadow-tooltip: rgba(0,0,0,.2);
+    --vtl-text: #fff;
+    --vtl-background-svg: #fff;
+    --vtl-background-svg-invert: #000;
+    --vtl-background-gradient: linear-gradient(228deg, rgb(24, 24, 24) 0%, rgb(38, 38, 38) 60%);
+  }
+}

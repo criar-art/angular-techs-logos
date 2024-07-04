@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-techs-logos": {
+    "angular-techs-logos-spa": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-techs-logos:build:production"
+              "buildTarget": "angular-techs-logos-spa:build:production"
             },
             "development": {
-              "buildTarget": "angular-techs-logos:build:development"
+              "buildTarget": "angular-techs-logos-spa:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -94,6 +94,39 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        }
+      }
+    },
+    "angular-techs-logos": {
+      "projectType": "library",
+      "root": "projects/angular-techs-logos",
+      "sourceRoot": "projects/angular-techs-logos/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/angular-techs-logos/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/angular-techs-logos/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/angular-techs-logos/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/angular-techs-logos/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
           }
         }
       }
