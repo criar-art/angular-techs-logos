@@ -11,15 +11,15 @@
       </figcaption>
     </figure>
   </ng-container>
-  <ng-container *ngIf="!name && (list || techs)">
+  <ng-container *ngIf="!name && (list || techsList)">
     <figure
       class="tech-container"
-      *ngFor="let tech of techs"
+      *ngFor="let tech of techsList()"
       [ngClass]="[tech.name.toLowerCase()]"
       [style.width]="size ? size : '100px'"
       [attr.key]="tech.name"
     >
-    <ng-container *ngComponentOutlet="getIcon(tech.name)" />
+      <ng-container *ngComponentOutlet="getIcon(tech.name)" />
       <figcaption [ngClass]="{ tooltip: hiddenLabel }">
         {{ tech.name }}
       </figcaption>
