@@ -1,6 +1,6 @@
 {
   "name": "angular-techs-logos-spa",
-  "version": "0.1.12",
+  "version": "0.1.14",
   "author": "lucasferreiralimax (https://github.com/lucasferreiralimax)",
   "repository": "https://github.com/criar-art/angular-techs-logos",
   "bugs": {
@@ -40,7 +40,7 @@
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
-    "angular-techs-logos": "^0.1.13",
+    "angular-techs-logos": "^0.1.14",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
