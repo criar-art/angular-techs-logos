@@ -14,7 +14,7 @@ Usage basic
 ```ts
 import AngularTechsLogosModule from 'angular-techs-logos';
 
-// imports in @Component standalone or in @NgModules
+// Example of imports within @NgModule or @Component
 imports: [ AngularTechsLogosModule ]
 ```
 
