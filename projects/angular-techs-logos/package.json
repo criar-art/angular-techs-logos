@@ -1,6 +1,6 @@
 {
   "name": "angular-techs-logos",
-  "version": "0.1.10",
+  "version": "0.1.12",
   "public": true,
   "peerDependencies": {
     "@angular/common": "^18.0.0",
