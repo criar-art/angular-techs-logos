@@ -61,8 +61,6 @@ export class AngularTechsLogosComponent implements OnInit, OnChanges {
     } else {
       this.techs = this.techs;
     }
-
-    console.log('this.techs: ', this.techs)
   }
 
   public techClass(name: string) {

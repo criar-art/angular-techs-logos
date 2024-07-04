@@ -1,7 +1,10 @@
 <div id="app">
+  <app-darkmode [hiddenLabel]="true"></app-darkmode>
   <app-header></app-header>
   <main class="main">
     <div class="content">
+        <h2>List of techs</h2>
+        <code class="code-wrapper">{{ codeString }}</code>
         <angular-techs-logos />
       </div>
   </main>
