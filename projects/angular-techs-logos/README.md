@@ -12,7 +12,10 @@ npm install angular-techs-logos
 
 Usage basic
 ```ts
-import VueTechsLogs from 'angular-techs-logos';
+import AngularTechsLogosModule from 'angular-techs-logos';
+
+// imports in @Component standalone or in @NgModules
+imports: [ AngularTechsLogosModule ]
 ```
 
 ```html
