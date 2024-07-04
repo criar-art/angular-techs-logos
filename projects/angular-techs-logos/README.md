@@ -1,24 +1,40 @@
-# AngularTechsLogos
+# angular-techs-logos
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+A list with logos company and techs
 
-## Code scaffolding
 
-Run `ng generate component component-name --project angular-techs-logos` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project angular-techs-logos`.
-> Note: Don't forget to add `--project angular-techs-logos` or else it will be added to the default project in your `angular.json` file. 
+<img alt="A list with logos company and techs screenshot" width="100%" src="https://raw.githubusercontent.com/criar-art/angular-techs-logos/master/public/screen-angular-techs-logos.png" />
 
-## Build
+Install
+```bash
+npm install angular-techs-logos
+```
 
-Run `ng build angular-techs-logos` to build the project. The build artifacts will be stored in the `dist/` directory.
+Usage basic
+```ts
+import VueTechsLogs from 'angular-techs-logos';
+```
 
-## Publishing
+```html
+<!-- list all logos -->
+<angular-techs-logos />
 
-After building your library with `ng build angular-techs-logos`, go to the dist folder `cd dist/angular-techs-logos` and run `npm publish`.
+<!-- single icon -->
+<angular-techs-logos name="javascript" />
 
-## Running unit tests
+<!-- list limited logos -->
+<angular-techs-logos [list]="['angular','javascript', 'react', 'angular']" />
 
-Run `ng test angular-techs-logos` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<!-- list all logos with hiddenLogos -->
+<angular-techs-logos [hiddenLogos]="['angular','javascript', 'react', 'angular', 'android']" />
 
-## Further help
+<!-- Hidden label -->
+<angular-techs-logos name="javascript" [hiddenLabel]="true" />
+<angular-techs-logos [hiddenLabel]="true" />
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<!-- single change label name -->
+<angular-techs-logos name="javascript" label="New JavaScript" />
+
+<!-- Modification of size component -->
+<angular-techs-logos name="javascript" size="220px" />
+```
