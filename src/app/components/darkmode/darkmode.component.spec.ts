@@ -9,7 +9,7 @@ describe('DarkmodeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DarkmodeComponent ]
+      imports: [ DarkmodeComponent ]
     })
     .compileComponents();
 

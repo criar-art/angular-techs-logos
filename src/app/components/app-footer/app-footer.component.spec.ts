@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-
 import { AppFooterComponent } from './app-footer.component';
 
 describe('AppFooterComponent', () => {
@@ -8,7 +7,7 @@ describe('AppFooterComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppFooterComponent ]
+      imports: [ AppFooterComponent ]
     })
     .compileComponents();
   }));
