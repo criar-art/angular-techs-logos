@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-techs-logos:build:production"
+              "buildTarget": "angular-techs-logos-spa:build:production"
             },
             "development": {
-              "buildTarget": "angular-techs-logos:build:development"
+              "buildTarget": "angular-techs-logos-spa:build:development"
             }
           },
           "defaultConfiguration": "development"

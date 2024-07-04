@@ -1,17 +1,13 @@
 import { Component } from '@angular/core';
-import { SvgIconComponent } from '@ngneat/svg-icon';
+// import { SvgTestComponent } from '@app/techs/amd'
+import { SvgTestComponent } from './techs/svg-test/svg-test.component'
 
 @Component({
   selector: 'lib-angular-techs-logos',
   standalone: true,
-  imports: [SvgIconComponent],
-  template: `
-    <p>
-      angular-techs-logos works!
-      <svg-icon key="amd"></svg-icon>
-    </p>
-  `,
-  styles: ``
+  imports: [SvgTestComponent],
+  templateUrl: './angular-techs-logos.component.html',
+  styleUrl: './angular-techs-logos.component.scss'
 })
 export class AngularTechsLogosComponent {
 
