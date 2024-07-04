@@ -1,0 +1,6 @@
+// @ts-nocheck
+/* eslint-disable */
+export const pandasIcon = {
+    data: `<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 50 218.63 231.21"><defs><style>@media (prefers-color-scheme: dark) {\n        .cls-1{fill:#fff;}\n      }\n      @media (prefers-color-scheme: light) {\n        .cls-1{fill:#130654;}\n      }\n      .cls-1{fill:#130654;}\n      .darkmode .cls-1{fill:#fff;}\n      .cls-2{fill:#ffca00;}\n      .cls-3{fill:#e70488;}</style></defs><rect class="cls-1" x="74.88" y="68.42" width="24.09" height="50.02"/><rect class="cls-1" x="74.88" y="171.17" width="24.09" height="50.02"/><rect class="cls-2" x="74.88" y="133.04" width="24.09" height="23.6"/><rect class="cls-1" x="36.19" y="109.55" width="24.09" height="166.27"/><rect class="cls-1" x="112.78" y="212.44" width="24.09" height="50.02"/><rect class="cls-1" x="112.78" y="109.61" width="24.09" height="50.02"/><rect class="cls-3" x="112.78" y="174.23" width="24.09" height="23.6"/><rect class="cls-1" x="150.67" y="55.39" width="24.09" height="166.27"/></svg>`,
+    name: 'pandas' as const
+};

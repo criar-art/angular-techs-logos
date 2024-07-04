@@ -3,6 +3,9 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "paths": {
+      "@app/techs/*": ["./projects/angular-techs-logos/src/lib/techs/*"]
+    },
     "outDir": "../../out-tsc/lib",
     "declaration": true,
     "declarationMap": true,

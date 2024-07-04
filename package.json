@@ -1,12 +1,29 @@
 {
-  "name": "angular-techs-logos",
+  "name": "angular-techs-logos-spa",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "svg": "svg-generator"
+  },
+  "svgGenerator": {
+    "outputPath": "./projects/angular-techs-logos/src/lib/techs",
+    "srcPath": "./projects/angular-techs-logos/src/lib/techs",
+    "svgoConfig": {
+      "plugins": [
+        "removeDimensions",
+        "cleanupAttrs",
+        {
+          "name": "convertColors",
+          "params": {
+            "currentColor": true
+          }
+        }
+      ]
+    }
   },
   "private": true,
   "dependencies": {
@@ -19,6 +36,7 @@
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
     "@ngneat/svg-icon": "^7.1.6",
+    "angular-techs-logos": "^0.0.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
@@ -27,6 +45,7 @@
     "@angular-devkit/build-angular": "^18.0.3",
     "@angular/cli": "^18.0.3",
     "@angular/compiler-cli": "^18.0.0",
+    "@ngneat/svg-generator": "^7.0.3",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
