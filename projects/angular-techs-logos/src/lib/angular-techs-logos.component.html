@@ -10,7 +10,7 @@
         {{ label ? label : getTech(name)?.name }}
       </figcaption>
     </figure>
-  } @else if (!name && (list || techsList())) {
+  } @else if (!name && (list || hiddenLogos || techsList())) {
     @for (tech of techsList(); track tech.name;) {
       <figure
         class="tech-container"

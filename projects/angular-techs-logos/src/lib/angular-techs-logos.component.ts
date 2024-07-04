@@ -59,9 +59,9 @@ export class AngularTechsLogosComponent implements OnInit, OnChanges {
     const currentList = this.listSignal();
     const currentHiddenLogos = this.hiddenLogosSignal();
 
-    if (currentList) {
+    if (currentList && this.list) {
       this.techsList.set(this.getTechs(currentList));
-    } else if (currentHiddenLogos && currentHiddenLogos.length > 0) {
+    } else if (currentHiddenLogos && this.hiddenLogos) {
       this.techsList.set(this.hiddenTechs(currentHiddenLogos));
     } else {
       this.techsList.set(this.techs);
