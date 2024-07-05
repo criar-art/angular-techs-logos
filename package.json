@@ -6,10 +6,20 @@
   "bugs": {
     "url": "https://github.com/criar-art/angular-techs-logos/issues"
   },
+  "keywords": [
+    "angular",
+    "components",
+    "svg",
+    "logos",
+    "techs",
+    "ui"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:module": "ng build angular-techs-logos",
+    "prod": "npm version patch && cd projects/angular-techs-logos && npm version patch && npm run build:module && cd dist/angular-techs-logos && npm publish",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "svg": "svg-generator"

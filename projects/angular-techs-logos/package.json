@@ -7,6 +7,14 @@
   "bugs": {
     "url": "https://github.com/criar-art/angular-techs-logos/issues"
   },
+  "keywords": [
+    "angular",
+    "components",
+    "svg",
+    "logos",
+    "techs",
+    "ui"
+  ],
   "peerDependencies": {
     "@angular/common": "^18.0.0",
     "@angular/core": "^18.0.0"
