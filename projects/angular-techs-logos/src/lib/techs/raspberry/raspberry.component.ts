@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'logo-raspberry',
-  templateUrl: './raspberry.component.html',
-  styleUrls: ['./raspberry.component.scss']
+  templateUrl: './raspberry.component.html'
 })
 export class RaspberryComponent {
   // Pode adicionar lógica aqui se necessário

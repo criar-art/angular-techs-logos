@@ -1,3 +1,16 @@
+@media (prefers-color-scheme: dark) {
+  .max-svg {
+    fill: #fff;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .max-svg {
+    fill: #002be7;
+  }
+}
 .max-svg {
-  // Adicione estilos específicos aqui, se necessário
+  fill: #002be7;
+}
+.darkmode .max-svg {
+  fill: #fff;
 }

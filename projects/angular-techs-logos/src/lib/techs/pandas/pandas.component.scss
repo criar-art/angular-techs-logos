@@ -1,3 +1,22 @@
-.pandas-svg {
-  // Adicione estilos específicos aqui, se necessário
+@media (prefers-color-scheme: dark) {
+  .pandas-1 {
+    fill: #fff;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .pandas-1 {
+    fill: #130654;
+  }
+}
+.pandas-1 {
+  fill: #130654;
+}
+.pandas-2 {
+  fill: #ffca00;
+}
+.pandas-3 {
+  fill: #e70488;
+}
+.darkmode .pandas-1 {
+  fill: #fff;
 }
