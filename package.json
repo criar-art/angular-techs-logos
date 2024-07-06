@@ -1,6 +1,6 @@
 {
   "name": "angular-techs-logos-spa",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "author": "lucasferreiralimax (https://github.com/lucasferreiralimax)",
   "repository": "https://github.com/criar-art/angular-techs-logos",
   "bugs": {
@@ -19,7 +19,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:module": "ng build angular-techs-logos",
-    "version": "npm version patch && cd projects/angular-techs-logos && npm version patch",
+    "version": "cd projects/angular-techs-logos && npm version patch",
     "publish": "cd dist/angular-techs-logos && npm publish",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
