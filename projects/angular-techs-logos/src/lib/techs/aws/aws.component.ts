@@ -2,7 +2,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'logo-aws',
-  templateUrl: './aws.component.html',
+  templateUrl: './aws.component.svg',
   styleUrls: ['./aws.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })

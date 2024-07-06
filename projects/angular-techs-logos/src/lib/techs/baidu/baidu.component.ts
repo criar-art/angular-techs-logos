@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'logo-baidu',
-  templateUrl: './baidu.component.html'
+  templateUrl: './baidu.component.svg'
 })
 export class BaiduComponent {
   // Pode adicionar lógica aqui se necessário

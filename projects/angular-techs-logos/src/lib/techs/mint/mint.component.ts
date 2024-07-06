@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'logo-mint',
-  templateUrl: './mint.component.html',
+  templateUrl: './mint.component.svg',
   styleUrls: ['./mint.component.scss']
 })
 export class MintComponent {
