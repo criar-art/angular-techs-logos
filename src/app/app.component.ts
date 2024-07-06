@@ -1,6 +1,7 @@
 import { Component, Renderer2, signal, effect } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { AngularTechsLogosModule, techs, Tech } from 'angular-techs-logos';
+// import { AngularTechsLogosModule, techs, Tech } from 'angular-techs-logos';
+import { AngularTechsLogosModule, techs, Tech } from '../../projects/angular-techs-logos/src/public-api';
 import { AppHeaderComponent } from './components/app-header/app-header.component';
 import { ModalinstallComponent } from './components/modal-install/modal-install.component';
 import { DarkmodeComponent } from './components/darkmode/darkmode.component';

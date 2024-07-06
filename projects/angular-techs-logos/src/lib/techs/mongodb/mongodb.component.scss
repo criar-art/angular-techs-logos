@@ -1,3 +1,16 @@
-.mongodb-svg {
-  // Adicione estilos específicos aqui, se necessário
+@media (prefers-color-scheme: dark) {
+  .mongodb-svg path {
+    fill: #fff;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .mongodb-svg path {
+    fill: #001e2b;
+  }
+}
+.mongodb-svg path {
+  fill: #001e2b;
+}
+.darkmode .mongodb-svg path {
+  fill: #fff !important;
 }

@@ -1,3 +1,17 @@
-.elementaryos-svg {
-  // Adicione estilos específicos aqui, se necessário
+.elementaryos-svg-default {
+  marker: none;
+  isolation: auto;
+  mix-blend-mode: normal;
+  solid-color: #000;
+  solid-opacity: 1;
+  filter-blend-mode: normal;
+  filter-gaussianblur-deviation: 0;
+}
+
+.elementaryos-svg-path {
+  isolation: auto;
+  mix-blend-mode: normal;
+  solid-color: #000;
+  solid-opacity: 1;
+  marker: none;
 }

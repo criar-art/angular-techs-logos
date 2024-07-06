@@ -1,3 +1,16 @@
+@media (prefers-color-scheme: dark) {
+  .eclipse-svg {
+    fill: #fff;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .eclipse-svg {
+    fill: #2c2255;
+  }
+}
 .eclipse-svg {
-  // Adicione estilos específicos aqui, se necessário
+  fill: #2c2255;
+}
+.darkmode .eclipse-svg {
+  fill: #fff;
 }
