@@ -1,14 +1,21 @@
-import { Component, EventEmitter, Input, Output, ViewEncapsulation } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  Output,
+  ViewEncapsulation,
+} from '@angular/core';
+import { AppCodeComponent } from '../app-code/app-code.component';
 
 @Component({
   selector: 'app-modal-install',
   standalone: true,
   templateUrl: './modal-install.component.html',
   styleUrl: './modal-install.component.scss',
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
+  imports: [AppCodeComponent],
 })
 export class ModalinstallComponent {
-
   @Input() active: boolean = false;
   @Output() closeModal = new EventEmitter<void>();
 
@@ -21,5 +28,5 @@ export class ModalinstallComponent {
 // Example of imports within @NgModule or @Component
 // imports: [ AngularTechsLogosModule ]
 
-<angular-techs-logos name="angular" />`
+<angular-techs-logos name="angular" />`;
 }
