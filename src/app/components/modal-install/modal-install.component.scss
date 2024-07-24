@@ -33,14 +33,16 @@
     margin-bottom: 0;
   }
 
-  .code-wrapper {
+  .code-wrapper,
+  .code-wrapper .hljs {
     background-color: #fff;
     color: #000;
   }
 }
 
 .darkmode {
-  .modal-content .code-wrapper {
+  .modal-content .code-wrapper,
+  .modal-content .code-wrapper .hljs {
     background-color: #000;
     color: #fff;
   }
