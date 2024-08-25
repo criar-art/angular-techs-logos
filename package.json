@@ -6,6 +6,7 @@
   "bugs": {
     "url": "https://github.com/criar-art/angular-techs-logos/issues"
   },
+  "homepage": "https://angular-techs-logos.web.app",
   "keywords": [
     "angular",
     "components",
@@ -18,12 +19,13 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:module": "ng build angular-techs-logos",
+    "build:module": "ng build angular-techs-logos && npm run postbuild",
     "version": "cd projects/angular-techs-logos && npm version patch",
     "publish": "cd dist/angular-techs-logos && npm publish",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "svg": "svg-generator"
+    "svg": "svg-generator",
+    "postbuild": "node scripts/post-build.js"
   },
   "svgGenerator": {
     "outputPath": "./projects/angular-techs-logos/src/lib/techs",
@@ -51,8 +53,9 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
-    "angular-techs-logos": "^0.1.17",
+    "angular-techs-logos": "^0.1.20",
     "highlight.js": "^11.10.0",
+    "jsonminify": "^0.4.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "^0.14.10"
@@ -62,6 +65,7 @@
     "@angular/cli": "^18.2.0",
     "@angular/compiler-cli": "^18.2.0",
     "@types/jasmine": "~5.1.0",
+    "glob": "^11.0.0",
     "jasmine-core": "^5.2.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
@@ -69,6 +73,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^18.2.0",
+    "terser": "^5.31.6",
     "typescript": "^5.5.4"
   }
 }
