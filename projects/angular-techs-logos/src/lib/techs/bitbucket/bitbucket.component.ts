@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-bitbucket',
   templateUrl: './bitbucket.component.svg'
 })
-export class BitbucketComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class BitbucketComponent {}

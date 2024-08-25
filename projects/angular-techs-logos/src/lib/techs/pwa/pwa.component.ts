@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-pwa',
   templateUrl: './pwa.component.svg'
 })
-export class PwaComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class PwaComponent {}

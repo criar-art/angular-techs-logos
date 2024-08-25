@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-nextjs',
   templateUrl: './nextjs.component.svg'
 })
-export class NextjsComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class NextjsComponent {}

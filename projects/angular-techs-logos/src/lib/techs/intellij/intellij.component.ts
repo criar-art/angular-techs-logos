@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-intellij',
   templateUrl: './intellij.component.svg'
 })
-export class IntellijComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class IntellijComponent {}

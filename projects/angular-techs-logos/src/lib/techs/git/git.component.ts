@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-git',
   templateUrl: './git.component.svg'
 })
-export class GitComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class GitComponent {}

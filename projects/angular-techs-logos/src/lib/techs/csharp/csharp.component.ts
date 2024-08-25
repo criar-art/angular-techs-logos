@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-csharp',
   templateUrl: './csharp.component.svg'
 })
-export class CsharpComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class CsharpComponent {}

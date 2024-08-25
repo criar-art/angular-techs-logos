@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-sass',
   templateUrl: './sass.component.svg'
 })
-export class SassComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class SassComponent {}

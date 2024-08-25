@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-turbo',
   templateUrl: './turbo.component.svg'
 })
-export class TurboComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class TurboComponent {}

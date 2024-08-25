@@ -6,6 +6,4 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./mongodb.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
-export class MongodbComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class MongodbComponent {}

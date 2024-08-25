@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-evernote',
   templateUrl: './evernote.component.svg'
 })
-export class EvernoteComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class EvernoteComponent {}

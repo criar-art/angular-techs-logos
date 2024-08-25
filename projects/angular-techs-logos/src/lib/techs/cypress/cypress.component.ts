@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-cypress',
   templateUrl: './cypress.component.svg'
 })
-export class CypressComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class CypressComponent {}

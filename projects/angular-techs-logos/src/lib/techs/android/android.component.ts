@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-android',
   templateUrl: './android.component.svg'
 })
-export class AndroidComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class AndroidComponent {}

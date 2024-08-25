@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-astro',
   templateUrl: './astro.component.svg'
 })
-export class AstroComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class AstroComponent {}

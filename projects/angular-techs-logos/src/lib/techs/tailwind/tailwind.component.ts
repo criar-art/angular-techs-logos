@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-tailwind',
   templateUrl: './tailwind.component.svg'
 })
-export class TailwindComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class TailwindComponent {}

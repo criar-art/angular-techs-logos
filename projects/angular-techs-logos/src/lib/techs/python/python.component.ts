@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-python',
   templateUrl: './python.component.svg'
 })
-export class PythonComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class PythonComponent {}

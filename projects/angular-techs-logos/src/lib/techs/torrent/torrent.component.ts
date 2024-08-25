@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-torrent',
   templateUrl: './torrent.component.svg'
 })
-export class TorrentComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class TorrentComponent {}

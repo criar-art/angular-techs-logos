@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-spotify',
   templateUrl: './spotify.component.svg'
 })
-export class SpotifyComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class SpotifyComponent {}

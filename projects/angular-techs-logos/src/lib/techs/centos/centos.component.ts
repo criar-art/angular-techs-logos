@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-centos',
   templateUrl: './centos.component.svg'
 })
-export class CentosComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class CentosComponent {}

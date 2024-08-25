@@ -6,6 +6,4 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./pandas.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
-export class PandasComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class PandasComponent {}

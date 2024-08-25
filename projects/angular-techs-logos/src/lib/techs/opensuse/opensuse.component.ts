@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-opensuse',
   templateUrl: './opensuse.component.svg'
 })
-export class OpensuseComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class OpensuseComponent {}

@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-typescript',
   templateUrl: './typescript.component.svg'
 })
-export class TypescriptComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class TypescriptComponent {}

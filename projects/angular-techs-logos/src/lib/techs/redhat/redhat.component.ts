@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-redhat',
   templateUrl: './redhat.component.svg'
 })
-export class RedhatComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class RedhatComponent {}

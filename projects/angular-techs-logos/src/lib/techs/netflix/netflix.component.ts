@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-netflix',
   templateUrl: './netflix.component.svg'
 })
-export class NetflixComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class NetflixComponent {}

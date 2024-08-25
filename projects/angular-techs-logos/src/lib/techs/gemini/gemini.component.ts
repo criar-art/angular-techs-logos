@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-gemini',
   templateUrl: './gemini.component.svg'
 })
-export class GeminiComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class GeminiComponent {}

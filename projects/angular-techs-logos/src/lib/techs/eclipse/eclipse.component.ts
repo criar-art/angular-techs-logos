@@ -6,6 +6,4 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./eclipse.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
-export class EclipseComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class EclipseComponent {}

@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-hp',
   templateUrl: './hp.component.svg'
 })
-export class HpComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class HpComponent {}

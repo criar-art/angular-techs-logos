@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-docker',
   templateUrl: './docker.component.svg'
 })
-export class DockerComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class DockerComponent {}

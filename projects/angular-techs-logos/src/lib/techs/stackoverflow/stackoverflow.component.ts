@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-stackoverflow',
   templateUrl: './stackoverflow.component.svg'
 })
-export class StackoverflowComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class StackoverflowComponent {}

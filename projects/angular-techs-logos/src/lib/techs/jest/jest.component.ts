@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-jest',
   templateUrl: './jest.component.svg'
 })
-export class JestComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class JestComponent {}

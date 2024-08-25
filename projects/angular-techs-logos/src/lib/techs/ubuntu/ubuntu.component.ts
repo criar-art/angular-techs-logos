@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-ubuntu',
   templateUrl: './ubuntu.component.svg'
 })
-export class UbuntuComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class UbuntuComponent {}

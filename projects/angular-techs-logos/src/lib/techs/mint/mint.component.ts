@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './mint.component.svg',
   styleUrls: ['./mint.component.scss']
 })
-export class MintComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class MintComponent {}

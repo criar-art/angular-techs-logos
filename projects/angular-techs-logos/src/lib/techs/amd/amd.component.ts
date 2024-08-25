@@ -4,7 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-amd',
   templateUrl: './amd.component.svg'
 })
-
-export class AmdComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class AmdComponent {}

@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-ember',
   templateUrl: './ember.component.svg'
 })
-export class EmberComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class EmberComponent {}

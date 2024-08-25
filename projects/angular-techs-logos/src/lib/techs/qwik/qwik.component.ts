@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-qwik',
   templateUrl: './qwik.component.svg'
 })
-export class QwikComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class QwikComponent {}

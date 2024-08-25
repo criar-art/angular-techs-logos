@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-debian',
   templateUrl: './debian.component.svg'
 })
-export class DebianComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class DebianComponent {}

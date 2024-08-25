@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-vite',
   templateUrl: './vite.component.svg'
 })
-export class ViteComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class ViteComponent {}

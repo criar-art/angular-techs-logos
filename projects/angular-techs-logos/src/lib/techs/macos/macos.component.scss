@@ -1,16 +1,4 @@
-@media (prefers-color-scheme: dark) {
-  .macos-svg {
-    fill: #fff;
-  }
-}
-@media (prefers-color-scheme: light) {
-  .macos-svg {
-    fill: #1d1d1f;
-  }
-}
-.macos-svg {
-  fill: #1d1d1f;
-}
-.darkmode .macos-svg {
-  fill: #fff;
-}
+@media (prefers-color-scheme: dark) { .macos-svg { fill: #fff; } }
+@media (prefers-color-scheme: light) { .macos-svg { fill: #1d1d1f; } }
+.macos-svg { fill: #1d1d1f; }
+.darkmode .macos-svg { fill: #fff; }

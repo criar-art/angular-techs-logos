@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-kotlin',
   templateUrl: './kotlin.component.svg'
 })
-export class KotlinComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class KotlinComponent {}

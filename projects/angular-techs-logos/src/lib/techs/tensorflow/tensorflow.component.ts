@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-tensorflow',
   templateUrl: './tensorflow.component.svg'
 })
-export class TensorflowComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class TensorflowComponent {}

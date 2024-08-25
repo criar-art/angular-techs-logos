@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-expo',
   templateUrl: './expo.component.svg'
 })
-export class ExpoComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class ExpoComponent {}

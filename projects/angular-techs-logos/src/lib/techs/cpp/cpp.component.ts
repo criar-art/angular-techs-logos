@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-cpp',
   templateUrl: './cpp.component.svg'
 })
-export class CppComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class CppComponent {}

@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-rust',
   templateUrl: './rust.component.svg'
 })
-export class RustComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class RustComponent {}

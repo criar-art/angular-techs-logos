@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-linux',
   templateUrl: './linux.component.svg'
 })
-export class LinuxComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class LinuxComponent {}

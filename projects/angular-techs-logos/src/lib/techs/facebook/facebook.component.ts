@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-facebook',
   templateUrl: './facebook.component.svg'
 })
-export class FacebookComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class FacebookComponent {}

@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-php',
   templateUrl: './php.component.svg'
 })
-export class PhpComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class PhpComponent {}

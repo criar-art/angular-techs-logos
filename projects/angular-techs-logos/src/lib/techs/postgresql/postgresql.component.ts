@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-postgresql',
   templateUrl: './postgresql.component.svg'
 })
-export class PostgresqlComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class PostgresqlComponent {}

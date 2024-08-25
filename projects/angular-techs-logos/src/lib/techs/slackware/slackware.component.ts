@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-slackware',
   templateUrl: './slackware.component.svg'
 })
-export class SlackwareComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class SlackwareComponent {}

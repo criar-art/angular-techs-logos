@@ -6,6 +6,4 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./macos.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
-export class MacosComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class MacosComponent {}

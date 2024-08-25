@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-mariadb',
   templateUrl: './mariadb.component.svg'
 })
-export class MariadbComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class MariadbComponent {}

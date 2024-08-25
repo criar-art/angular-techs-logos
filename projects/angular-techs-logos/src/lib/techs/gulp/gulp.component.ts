@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-gulp',
   templateUrl: './gulp.component.svg'
 })
-export class GulpComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class GulpComponent {}

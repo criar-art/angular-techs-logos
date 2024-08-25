@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-springboot',
   templateUrl: './springboot.component.svg'
 })
-export class SpringbootComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class SpringbootComponent {}

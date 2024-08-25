@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './max.component.svg',
   styleUrls: ['./max.component.scss']
 })
-export class MaxComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class MaxComponent {}

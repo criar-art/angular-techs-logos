@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-youtube',
   templateUrl: './youtube.component.svg',
 })
-export class YoutubeComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class YoutubeComponent {}

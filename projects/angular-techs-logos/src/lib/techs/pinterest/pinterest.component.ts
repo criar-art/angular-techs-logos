@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-pinterest',
   templateUrl: './pinterest.component.svg'
 })
-export class PinterestComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class PinterestComponent {}

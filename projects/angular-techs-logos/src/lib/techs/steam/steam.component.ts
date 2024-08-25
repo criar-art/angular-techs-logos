@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-steam',
   templateUrl: './steam.component.svg'
 })
-export class SteamComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class SteamComponent {}

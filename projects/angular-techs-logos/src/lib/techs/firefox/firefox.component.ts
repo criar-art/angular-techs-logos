@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-firefox',
   templateUrl: './firefox.component.svg'
 })
-export class FirefoxComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class FirefoxComponent {}

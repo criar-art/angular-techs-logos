@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-gitlab',
   templateUrl: './gitlab.component.svg'
 })
-export class GitlabComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class GitlabComponent {}

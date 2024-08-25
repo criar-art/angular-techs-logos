@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-raspberry',
   templateUrl: './raspberry.component.svg'
 })
-export class RaspberryComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class RaspberryComponent {}

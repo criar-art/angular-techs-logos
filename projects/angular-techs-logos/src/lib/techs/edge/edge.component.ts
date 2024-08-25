@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-edge',
   templateUrl: './edge.component.svg'
 })
-export class EdgeComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class EdgeComponent {}

@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-webpack',
   templateUrl: './webpack.component.svg'
 })
-export class WebpackComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class WebpackComponent {}

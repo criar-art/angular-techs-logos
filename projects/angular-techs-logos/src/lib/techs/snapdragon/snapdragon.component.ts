@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-snapdragon',
   templateUrl: './snapdragon.component.svg'
 })
-export class SnapdragonComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class SnapdragonComponent {}

@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-x',
   templateUrl: './x.component.svg'
 })
-export class XComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class XComponent {}

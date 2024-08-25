@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-swift',
   templateUrl: './swift.component.svg'
 })
-export class SwiftComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class SwiftComponent {}

@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-kalilinux',
   templateUrl: './kalilinux.component.svg'
 })
-export class KalilinuxComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class KalilinuxComponent {}

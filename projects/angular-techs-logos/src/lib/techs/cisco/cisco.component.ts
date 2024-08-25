@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-cisco',
   templateUrl: './cisco.component.svg'
 })
-export class CiscoComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class CiscoComponent {}

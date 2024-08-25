@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-backbone',
   templateUrl: './backbone.component.svg'
 })
-export class BackboneComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class BackboneComponent {}

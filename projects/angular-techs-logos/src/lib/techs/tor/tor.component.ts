@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-tor',
   templateUrl: './tor.component.svg'
 })
-export class TorComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class TorComponent {}

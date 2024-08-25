@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-vitest',
   templateUrl: './vitest.component.svg'
 })
-export class VitestComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class VitestComponent {}

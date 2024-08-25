@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-chrome',
   templateUrl: './chrome.component.svg'
 })
-export class ChromeComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class ChromeComponent {}

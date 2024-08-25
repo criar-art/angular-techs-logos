@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-instagram',
   templateUrl: './instagram.component.svg'
 })
-export class InstagramComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class InstagramComponent {}

@@ -1,16 +1,4 @@
-@media (prefers-color-scheme: dark) {
-  .aws-svg {
-    fill: #fff;
-  }
-}
-@media (prefers-color-scheme: light) {
-  .aws-svg {
-    fill: #252f3e;
-  }
-}
-.aws-svg {
-  fill: #252f3e;
-}
-.darkmode .aws-svg {
-  fill: #fff;
-}
+@media (prefers-color-scheme: dark) { .aws-svg { fill: #fff; } }
+@media (prefers-color-scheme: light) { .aws-svg { fill: #252f3e; } }
+.aws-svg { fill: #252f3e; }
+.darkmode .aws-svg { fill: #fff; }

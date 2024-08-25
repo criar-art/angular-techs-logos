@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-microsoft',
   templateUrl: './microsoft.component.svg'
 })
-export class MicrosoftComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class MicrosoftComponent {}

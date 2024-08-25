@@ -6,6 +6,4 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./aws.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
-export class AwsComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class AwsComponent { }

@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-manjaro',
   templateUrl: './manjaro.component.svg'
 })
-export class ManjaroComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class ManjaroComponent {}

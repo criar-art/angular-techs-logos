@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-playstore',
   templateUrl: './playstore.component.svg'
 })
-export class PlaystoreComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class PlaystoreComponent {}

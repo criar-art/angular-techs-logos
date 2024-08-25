@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-go',
   templateUrl: './go.component.svg'
 })
-export class GoComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class GoComponent {}

@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-deepin',
   templateUrl: './deepin.component.svg'
 })
-export class DeepinComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class DeepinComponent {}

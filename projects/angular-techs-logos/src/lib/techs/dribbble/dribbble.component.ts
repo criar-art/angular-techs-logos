@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-dribbble',
   templateUrl: './dribbble.component.svg'
 })
-export class DribbbleComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class DribbbleComponent {}

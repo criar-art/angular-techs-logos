@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-vk',
   templateUrl: './vk.component.svg'
 })
-export class VkComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class VkComponent {}

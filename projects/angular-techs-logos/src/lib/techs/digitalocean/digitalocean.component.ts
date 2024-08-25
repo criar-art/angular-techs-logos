@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-digitalocean',
   templateUrl: './digitalocean.component.svg'
 })
-export class DigitaloceanComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class DigitaloceanComponent {}

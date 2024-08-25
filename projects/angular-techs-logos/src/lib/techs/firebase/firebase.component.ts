@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-firebase',
   templateUrl: './firebase.component.svg'
 })
-export class FirebaseComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class FirebaseComponent {}

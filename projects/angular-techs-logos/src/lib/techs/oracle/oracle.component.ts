@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-oracle',
   templateUrl: './oracle.component.svg'
 })
-export class OracleComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class OracleComponent {}

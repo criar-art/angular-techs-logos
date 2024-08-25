@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-mysql',
   templateUrl: './mysql.component.svg'
 })
-export class MysqlComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class MysqlComponent {}

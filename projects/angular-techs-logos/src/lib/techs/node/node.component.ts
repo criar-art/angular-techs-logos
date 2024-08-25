@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-node',
   templateUrl: './node.component.svg'
 })
-export class NodeComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class NodeComponent {}

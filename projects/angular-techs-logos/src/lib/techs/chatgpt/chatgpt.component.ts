@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-chatgpt',
   templateUrl: './chatgpt.component.svg'
 })
-export class ChatgptComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class ChatgptComponent {}

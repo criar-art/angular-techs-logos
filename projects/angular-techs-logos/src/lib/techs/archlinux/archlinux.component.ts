@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-archlinux',
   templateUrl: './archlinux.component.svg'
 })
-export class ArchlinuxComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class ArchlinuxComponent {}

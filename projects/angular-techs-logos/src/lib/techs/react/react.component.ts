@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-react',
   templateUrl: './react.component.svg'
 })
-export class ReactComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class ReactComponent {}

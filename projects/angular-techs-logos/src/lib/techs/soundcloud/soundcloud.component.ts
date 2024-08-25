@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-soundcloud',
   templateUrl: './soundcloud.component.svg'
 })
-export class SoundcloudComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class SoundcloudComponent {}

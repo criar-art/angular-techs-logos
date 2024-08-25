@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './elementaryos.component.svg',
   styleUrls: ['./elementaryos.component.scss']
 })
-export class ElementaryosComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class ElementaryosComponent {}

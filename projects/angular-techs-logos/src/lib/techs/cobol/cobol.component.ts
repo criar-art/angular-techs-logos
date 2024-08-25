@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-cobol',
   templateUrl: './cobol.component.svg'
 })
-export class CobolComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class CobolComponent {}

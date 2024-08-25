@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-opera',
   templateUrl: './opera.component.svg'
 })
-export class OperaComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class OperaComponent {}

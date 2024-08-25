@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-tomcat',
   templateUrl: './tomcat.component.svg'
 })
-export class TomcatComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class TomcatComponent {}

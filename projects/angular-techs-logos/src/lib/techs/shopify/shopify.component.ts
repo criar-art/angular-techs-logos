@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'logo-shopify',
   templateUrl: './shopify.component.svg'
 })
-export class ShopifyComponent {
-  // Pode adicionar lógica aqui se necessário
-}
+export class ShopifyComponent {}
