@@ -222,6 +222,7 @@ export const techs: Tech[] = [
   { name: 'Discord',        icon: DiscordComponent,        url: 'https://discord.com' },
   { name: 'DigitalOcean',   icon: DigitaloceanComponent,   url: 'https://digitalocean.com' },
   { name: 'Expo',           icon: ExpoComponent,           url: 'https://expo.dev' },
+  { name: 'Bitbucket',      icon: BitbucketComponent,      url: 'https://bitbucket.org' }
   { name: 'Next.js',        icon: NextjsComponent,         url: 'https://nextjs.org' },
   { name: 'Nuxt',           icon: NuxtComponent,           url: 'https://nuxt.com' },
   { name: 'Qwik',           icon: QwikComponent,           url: 'https://qwik.dev' },
@@ -285,5 +286,5 @@ export const techs: Tech[] = [
   { name: 'Tor',            icon: TorComponent,            url: 'https://www.torproject.org' },
   { name: 'Lua',            icon: LuaComponent,            url: 'https://www.lua.org' },
   { name: 'Fortran',        icon: FortranComponent,        url: 'https://fortran-lang.org' },
-  { name: 'Cobol',          icon: CobolComponent,          url: 'https://en.wikipedia.org/wiki/COBOL' }
+  { name: 'Cobol',          icon: CobolComponent,          url: 'https://en.wikipedia.org/wiki/COBOL' },
 ];
