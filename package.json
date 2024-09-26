@@ -53,7 +53,7 @@
     "@angular/platform-browser": "^18.2.6",
     "@angular/platform-browser-dynamic": "^18.2.6",
     "@angular/router": "^18.2.6",
-    "angular-techs-logos": "^0.1.22",
+    "angular-techs-logos": "^0.1.23",
     "highlight.js": "^11.10.0",
     "jsonminify": "^0.4.2",
     "rxjs": "~7.8.0",
