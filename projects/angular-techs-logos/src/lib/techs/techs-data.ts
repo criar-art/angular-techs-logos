@@ -142,6 +142,9 @@ import { MaxComponent } from './max/max.component';
 import { AzureComponent } from './azure/azure.component';
 import { GrafanaComponent } from './grafana/grafana.component';
 import { AnsibleComponent } from './ansible/ansible.component';
+import { NginxComponent } from './nginx/nginx.component';
+import { AppStoreComponent } from './appstore/appstore.component';
+import { GraylogComponent } from './graylog/graylog.component';
 
 export interface Tech {
   name: string;
@@ -293,4 +296,7 @@ export const techs: Tech[] = [
   { name: 'Azure',          icon: AzureComponent,          url: 'https://azure.microsoft.com' },
   { name: 'Grafana',        icon: GrafanaComponent,        url: 'https://grafana.com' },
   { name: 'Ansible',        icon: AnsibleComponent,        url: 'https://www.ansible.com' },
+  { name: 'Nginx',          icon: NginxComponent,          url: 'https://nginx.org' },
+  { name: 'Graylog',        icon: GraylogComponent,        url: 'https://graylog.org' },
+  { name: 'AppStore',       icon: AppStoreComponent,       url: 'https://www.apple.com/br/app-store' },
 ];
