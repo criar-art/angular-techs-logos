@@ -145,6 +145,9 @@ import { AnsibleComponent } from './ansible/ansible.component';
 import { NginxComponent } from './nginx/nginx.component';
 import { AppStoreComponent } from './appstore/appstore.component';
 import { GraylogComponent } from './graylog/graylog.component';
+import { CircleCiComponent } from './circleci/circleci.component';
+import { D3Component } from './d3/d3.component';
+import { EloComponent } from './elo/elo.component';
 
 export interface Tech {
   name: string;
@@ -299,4 +302,7 @@ export const techs: Tech[] = [
   { name: 'Nginx',          icon: NginxComponent,          url: 'https://nginx.org' },
   { name: 'Graylog',        icon: GraylogComponent,        url: 'https://graylog.org' },
   { name: 'AppStore',       icon: AppStoreComponent,       url: 'https://www.apple.com/br/app-store' },
+  { name: 'CircleCI',       icon: CircleCiComponent,       url: 'https://circleci.com' },
+  { name: 'D3',             icon: D3Component,             url: 'https://d3js.org' },
+  { name: 'Elo',            icon: EloComponent,             url: 'https://d3js.org' },
 ];
