@@ -139,6 +139,9 @@ import { TiktokComponent } from './tiktok/tiktok.component';
 import { CobolComponent } from './cobol/cobol.component';
 import { FirefoxComponent } from './firefox/firefox.component';
 import { MaxComponent } from './max/max.component';
+import { AzureComponent } from './azure/azure.component';
+import { GrafanaComponent } from './grafana/grafana.component';
+import { AnsibleComponent } from './ansible/ansible.component';
 
 export interface Tech {
   name: string;
@@ -287,4 +290,7 @@ export const techs: Tech[] = [
   { name: 'Lua',            icon: LuaComponent,            url: 'https://www.lua.org' },
   { name: 'Fortran',        icon: FortranComponent,        url: 'https://fortran-lang.org' },
   { name: 'Cobol',          icon: CobolComponent,          url: 'https://en.wikipedia.org/wiki/COBOL' },
+  { name: 'Azure',          icon: AzureComponent,          url: 'https://azure.microsoft.com' },
+  { name: 'Grafana',        icon: GrafanaComponent,        url: 'https://grafana.com' },
+  { name: 'Ansible',        icon: AnsibleComponent,        url: 'https://www.ansible.com' },
 ];
