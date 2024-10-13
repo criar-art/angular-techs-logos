@@ -142,6 +142,15 @@ import { TiktokComponent } from './techs/tiktok/tiktok.component';
 import { CobolComponent } from './techs/cobol/cobol.component';
 import { FirefoxComponent } from './techs/firefox/firefox.component';
 import { MaxComponent } from './techs/max/max.component';
+import { AzureComponent } from './techs/azure/azure.component';
+import { GrafanaComponent } from './techs/grafana/grafana.component';
+import { AnsibleComponent } from './techs/ansible/ansible.component';
+import { NginxComponent } from './techs/nginx/nginx.component';
+import { AppStoreComponent } from './techs/appstore/appstore.component';
+import { GraylogComponent } from './techs/graylog/graylog.component';
+import { CircleCiComponent } from './techs/circleci/circleci.component';
+import { D3Component } from './techs/d3/d3.component';
+import { EloComponent } from './techs/elo/elo.component';
 
 @NgModule({
   imports: [CommonModule],
@@ -288,6 +297,15 @@ import { MaxComponent } from './techs/max/max.component';
     CobolComponent,
     FirefoxComponent,
     MaxComponent,
+    AzureComponent,
+    GrafanaComponent,
+    AnsibleComponent,
+    NginxComponent,
+    AppStoreComponent,
+    GraylogComponent,
+    CircleCiComponent,
+    D3Component,
+    EloComponent,
   ]
 })
 export class AngularTechsLogosModule {}
