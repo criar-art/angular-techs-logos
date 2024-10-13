@@ -304,5 +304,5 @@ export const techs: Tech[] = [
   { name: 'AppStore',       icon: AppStoreComponent,       url: 'https://www.apple.com/br/app-store' },
   { name: 'CircleCI',       icon: CircleCiComponent,       url: 'https://circleci.com' },
   { name: 'D3',             icon: D3Component,             url: 'https://d3js.org' },
-  { name: 'Elo',            icon: EloComponent,             url: 'https://d3js.org' },
+  { name: 'Elo',            icon: EloComponent,            url: 'https://www.elo.com.br' },
 ];
