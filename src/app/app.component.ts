@@ -26,7 +26,7 @@ import { FormsModule } from '@angular/forms';
 export class AppComponent {
   constructor(private renderer: Renderer2) {}
 
-  codeString: string = '<angular-techs-logos />';
+  codeString: string = 'npm install angular-techs-logos';
   isModalActive: boolean = false;
   techs: Tech[] = techs;
   techsFiltered: string[] = [];
