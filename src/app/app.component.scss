@@ -4,3 +4,11 @@
   font-weight: normal;
   min-height: calc(100vh - 40px);
 }
+
+::ng-deep .btn-mode {
+  margin: 2rem 1rem !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 11;
+}

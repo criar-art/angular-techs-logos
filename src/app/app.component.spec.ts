@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { DarkmodeComponent } from './components/darkmode/darkmode.component';
+import { DarkmodeComponent } from 'darkmode-angular';
 import { AppHeaderComponent } from './components/app-header/app-header.component';
 import { ModalinstallComponent } from './components/modal-install/modal-install.component';
 import { AppFooterComponent } from './components/app-footer/app-footer.component';
