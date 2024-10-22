@@ -27,9 +27,15 @@ figure.tech-container {
     border-color: var(--vtl-background);
     transform: scale(1.1);
   }
+}
+
+.tech-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   svg {
+    width: 70px;
     height: 50px;
-    margin-bottom: .2rem;
   }
 }
 
@@ -39,6 +45,7 @@ figure {
   margin: .2rem;
   figcaption {
     font-size: .7rem;
+    margin-top: .2rem;
     &.tooltip {
       position: absolute;
       bottom: 2%;
