@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-centos',
+  selector: 'i.tech-icon.logo-centos',
   templateUrl: './centos.component.svg'
 })
 export class CentosComponent {}

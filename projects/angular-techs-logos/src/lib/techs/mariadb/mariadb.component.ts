@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-mariadb',
+  selector: 'i.tech-icon.logo-mariadb',
   templateUrl: './mariadb.component.svg'
 })
 export class MariadbComponent {}

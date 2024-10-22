@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-qwik',
+  selector: 'i.tech-icon.logo-qwik',
   templateUrl: './qwik.component.svg'
 })
 export class QwikComponent {}

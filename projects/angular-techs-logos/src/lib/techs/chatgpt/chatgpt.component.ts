@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-chatgpt',
+  selector: 'i.tech-icon.logo-chatgpt',
   templateUrl: './chatgpt.component.svg'
 })
 export class ChatgptComponent {}

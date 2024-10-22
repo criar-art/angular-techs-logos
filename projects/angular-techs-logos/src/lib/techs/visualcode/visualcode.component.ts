@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-visualcode',
+  selector: 'i.tech-icon.logo-visualcode',
   templateUrl: './visualcode.component.svg'
 })
 export class VisualcodeComponent {}

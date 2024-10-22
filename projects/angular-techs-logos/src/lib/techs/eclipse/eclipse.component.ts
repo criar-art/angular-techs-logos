@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'logo-eclipse',
+  selector: 'i.tech-icon.logo-eclipse',
   templateUrl: './eclipse.component.svg',
   styleUrls: ['./eclipse.component.scss'],
   encapsulation: ViewEncapsulation.None,

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-stylus',
+  selector: 'i.tech-icon.logo-stylus',
   templateUrl: './stylus.component.svg'
 })
 export class StylusComponent {}

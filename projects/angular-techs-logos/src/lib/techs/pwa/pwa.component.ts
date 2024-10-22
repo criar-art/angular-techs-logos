@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-pwa',
+  selector: 'i.tech-icon.logo-pwa',
   templateUrl: './pwa.component.svg'
 })
 export class PwaComponent {}

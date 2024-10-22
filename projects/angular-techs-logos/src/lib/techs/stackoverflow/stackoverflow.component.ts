@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-stackoverflow',
+  selector: 'i.tech-icon.logo-stackoverflow',
   templateUrl: './stackoverflow.component.svg'
 })
 export class StackoverflowComponent {}

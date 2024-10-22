@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-debian',
+  selector: 'i.tech-icon.logo-debian',
   templateUrl: './debian.component.svg'
 })
 export class DebianComponent {}

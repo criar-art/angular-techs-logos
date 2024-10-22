@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-wordpress',
+  selector: 'i.tech-icon.logo-wordpress',
   templateUrl: './wordpress.component.svg'
 })
 export class WordpressComponent {}

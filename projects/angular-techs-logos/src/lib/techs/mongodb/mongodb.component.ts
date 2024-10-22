@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'logo-mongodb',
+  selector: 'i.tech-icon.logo-mongodb',
   templateUrl: './mongodb.component.svg',
   styleUrls: ['./mongodb.component.scss'],
   encapsulation: ViewEncapsulation.None,

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-facebook',
+  selector: 'i.tech-icon.logo-facebook',
   templateUrl: './facebook.component.svg'
 })
 export class FacebookComponent {}

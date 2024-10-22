@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-mozilla',
+  selector: 'i.tech-icon.logo-mozilla',
   templateUrl: './mozilla.component.svg',
 })
 export class MozillaComponent {}

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-github',
+  selector: 'i.tech-icon.logo-github',
   templateUrl: './github.component.svg'
 })
 export class GithubComponent {}

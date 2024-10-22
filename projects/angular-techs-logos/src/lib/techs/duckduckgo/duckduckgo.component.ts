@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-duckduckgo',
+  selector: 'i.tech-icon.logo-duckduckgo',
   templateUrl: './duckduckgo.component.svg'
 })
 export class DuckduckgoComponent {}

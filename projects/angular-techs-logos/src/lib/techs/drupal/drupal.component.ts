@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-drupal',
+  selector: 'i.tech-icon.logo-drupal',
   templateUrl: './drupal.component.svg'
 })
 export class DrupalComponent {}
