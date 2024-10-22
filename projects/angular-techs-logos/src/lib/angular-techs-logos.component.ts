@@ -25,6 +25,7 @@ export class AngularTechsLogosComponent implements OnInit, OnChanges {
   @Input() size: string | undefined;
   @Input() label: string | undefined;
   @Input() hiddenLabel: boolean | undefined;
+  @Input() raw: boolean | undefined;
   @Input() class: string | undefined;
   @Input() hiddenLogos: string[] | undefined;
 
