@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-gulp',
+  selector: 'i.tech-icon.logo-gulp',
   templateUrl: './gulp.component.svg'
 })
 export class GulpComponent {}

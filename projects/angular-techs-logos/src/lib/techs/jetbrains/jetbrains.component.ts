@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-jetbrains',
+  selector: 'i.tech-icon.logo-jetbrains',
   templateUrl: './jetbrains.component.svg'
 })
 export class JetbrainsComponent {}

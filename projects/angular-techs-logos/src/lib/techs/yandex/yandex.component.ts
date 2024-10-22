@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-yandex',
+  selector: 'i.tech-icon.logo-yandex',
   templateUrl: './yandex.component.svg'
 })
 export class YandexComponent {}

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-microsoft',
+  selector: 'i.tech-icon.logo-microsoft',
   templateUrl: './microsoft.component.svg'
 })
 export class MicrosoftComponent {}

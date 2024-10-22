@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-elementaryos',
+  selector: 'i.tech-icon.logo-elementaryos',
   templateUrl: './elementaryos.component.svg',
   styleUrls: ['./elementaryos.component.scss']
 })

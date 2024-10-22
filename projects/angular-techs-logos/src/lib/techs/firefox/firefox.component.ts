@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-firefox',
+  selector: 'i.tech-icon.logo-firefox',
   templateUrl: './firefox.component.svg'
 })
 export class FirefoxComponent {}

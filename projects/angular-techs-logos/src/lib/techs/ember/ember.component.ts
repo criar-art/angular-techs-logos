@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-ember',
+  selector: 'i.tech-icon.logo-ember',
   templateUrl: './ember.component.svg'
 })
 export class EmberComponent {}

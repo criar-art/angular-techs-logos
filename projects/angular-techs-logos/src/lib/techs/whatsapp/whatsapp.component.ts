@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-whatsapp',
+  selector: 'i.tech-icon.logo-whatsapp',
   templateUrl: './whatsapp.component.svg'
 })
 export class WhatsappComponent {}

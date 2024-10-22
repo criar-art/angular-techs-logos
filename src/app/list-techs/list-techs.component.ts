@@ -1,6 +1,6 @@
 import { Component, effect, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AngularTechsLogosModule, Tech, techs } from 'angular-techs-logos';
+import { AngularTechsLogosModule, Tech, techs } from '../../../projects/angular-techs-logos/src/public-api';
 
 @Component({
   selector: 'list-techs',

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-nextjs',
+  selector: 'i.tech-icon.logo-nextjs',
   templateUrl: './nextjs.component.svg'
 })
 export class NextjsComponent {}

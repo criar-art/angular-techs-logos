@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'logo-pandas',
+  selector: 'i.tech-icon.logo-pandas',
   templateUrl: './pandas.component.svg',
   styleUrls: ['./pandas.component.scss'],
   encapsulation: ViewEncapsulation.None,

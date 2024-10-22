@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-tor',
+  selector: 'i.tech-icon.logo-tor',
   templateUrl: './tor.component.svg'
 })
 export class TorComponent {}

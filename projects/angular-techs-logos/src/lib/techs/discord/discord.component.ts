@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-discord',
+  selector: 'i.tech-icon.logo-discord',
   templateUrl: './discord.component.svg'
 })
 export class DiscordComponent {}

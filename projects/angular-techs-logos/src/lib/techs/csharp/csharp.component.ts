@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-csharp',
+  selector: 'i.tech-icon.logo-csharp',
   templateUrl: './csharp.component.svg'
 })
 export class CsharpComponent {}

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-kalilinux',
+  selector: 'i.tech-icon.logo-kalilinux',
   templateUrl: './kalilinux.component.svg'
 })
 export class KalilinuxComponent {}

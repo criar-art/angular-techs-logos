@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-apple',
+  selector: 'i.tech-icon.logo-apple',
   templateUrl: './apple.component.svg'
 })
 export class AppleComponent {}

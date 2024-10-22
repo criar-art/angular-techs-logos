@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'logo-macos',
+  selector: 'i.tech-icon.logo-macos',
   templateUrl: './macos.component.svg',
   styleUrls: ['./macos.component.scss'],
   encapsulation: ViewEncapsulation.None,

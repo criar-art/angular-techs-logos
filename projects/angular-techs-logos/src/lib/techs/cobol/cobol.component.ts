@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-cobol',
+  selector: 'i.tech-icon.logo-cobol',
   templateUrl: './cobol.component.svg'
 })
 export class CobolComponent {}

@@ -1,28 +1,38 @@
-<div class="techs" [ngClass]="class">
+@if(raw) {
   @if (name && getTech(name) && !list) {
-    <figure
-      class="tech-container"
-      [ngClass]="techClass(name)"
-      [style.width]="size ? size : '100px'"
-    >
-      <ng-container *ngComponentOutlet="getIcon(name)" />
-      <figcaption [ngClass]="{ tooltip: hiddenLabel }">
-        {{ label ? label : getTech(name)?.name }}
-      </figcaption>
-    </figure>
+    <ng-container *ngComponentOutlet="getIcon(name)" />
   } @else if (!name && (list || hiddenLogos || techsList())) {
     @for (tech of techsList(); track tech.name;) {
-      <figure
-        class="tech-container"
-        [ngClass]="[tech.name.toLowerCase()]"
-        [style.width]="size ? size : '100px'"
-        [attr.key]="tech.name"
-      >
-        <ng-container *ngComponentOutlet="getIcon(tech.name)" />
-        <figcaption [ngClass]="{ tooltip: hiddenLabel }">
-          {{ tech.name }}
-        </figcaption>
-      </figure>
+      <ng-container *ngComponentOutlet="getIcon(tech.name)" />
     }
   }
-</div>
+} @else {
+  <div class="techs" [ngClass]="class">
+    @if (name && getTech(name) && !list) {
+      <figure
+        class="tech-container"
+        [ngClass]="techClass(name)"
+        [style.width]="size ? size : '100px'"
+      >
+        <ng-container *ngComponentOutlet="getIcon(name)" />
+        <figcaption [ngClass]="{ tooltip: hiddenLabel }">
+          {{ label ? label : getTech(name)?.name }}
+        </figcaption>
+      </figure>
+    } @else if (!name && (list || hiddenLogos || techsList())) {
+      @for (tech of techsList(); track tech.name;) {
+        <figure
+          class="tech-container"
+          [ngClass]="[tech.name.toLowerCase()]"
+          [style.width]="size ? size : '100px'"
+          [attr.key]="tech.name"
+        >
+          <ng-container *ngComponentOutlet="getIcon(tech.name)" />
+          <figcaption [ngClass]="{ tooltip: hiddenLabel }">
+            {{ tech.name }}
+          </figcaption>
+        </figure>
+      }
+    }
+  </div>
+}

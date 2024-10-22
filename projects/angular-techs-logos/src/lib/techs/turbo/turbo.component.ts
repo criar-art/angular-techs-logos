@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-turbo',
+  selector: 'i.tech-icon.logo-turbo',
   templateUrl: './turbo.component.svg'
 })
 export class TurboComponent {}

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-kubernets',
+  selector: 'i.tech-icon.logo-kubernets',
   templateUrl: './kubernets.component.svg'
 })
 export class KubernetsComponent {}

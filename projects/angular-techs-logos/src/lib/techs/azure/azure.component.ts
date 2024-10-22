@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-azure',
+  selector: 'i.tech-icon.logo-azure',
   templateUrl: './azure.component.svg'
 })
 export class AzureComponent {}

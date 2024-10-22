@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-java',
+  selector: 'i.tech-icon.logo-java',
   templateUrl: './java.component.svg'
 })
 export class JavaComponent {}

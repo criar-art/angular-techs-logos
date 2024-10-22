@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-cpp',
+  selector: 'i.tech-icon.logo-cpp',
   templateUrl: './cpp.component.svg'
 })
 export class CppComponent {}

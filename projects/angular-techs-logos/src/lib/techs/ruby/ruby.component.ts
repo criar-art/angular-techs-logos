@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'logo-ruby',
+  selector: 'i.tech-icon.logo-ruby',
   templateUrl: './ruby.component.svg'
 })
 export class RubyComponent {}
