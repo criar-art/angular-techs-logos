@@ -60,6 +60,11 @@ export class AppComponent {
           language: 'tsx',
           content: `<angular-techs-logos [hiddenLogos]="['vue', 'javascript', 'react', 'angular', 'android']" />`,
         },
+        {
+          name: 'raw',
+          language: 'tsx',
+          content: `<angular-techs-logos name="angular" [raw]="true" />`,
+        },
       ],
     };
   }

@@ -40,4 +40,7 @@ imports: [ AngularTechsLogosModule ]
 
 <!-- Modification of size component -->
 <angular-techs-logos name="javascript" size="220px" />
+
+<!-- raw -->
+<angular-techs-logos name="angular" [raw]="true" />
 ```
