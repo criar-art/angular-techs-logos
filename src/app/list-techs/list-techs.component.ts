@@ -1,13 +1,18 @@
 import { Component, effect, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AngularTechsLogosModule, Tech, techs } from '../../../projects/angular-techs-logos/src/public-api';
+import { NucleusBox } from 'nucleus-angular';
+import {
+  AngularTechsLogosModule,
+  Tech,
+  techs,
+} from '../../../projects/angular-techs-logos/src/public-api';
 
 @Component({
   selector: 'list-techs',
   standalone: true,
-  imports: [AngularTechsLogosModule, FormsModule],
+  imports: [AngularTechsLogosModule, FormsModule, NucleusBox],
   templateUrl: './list-techs.component.html',
-  styleUrl: './list-techs.component.scss'
+  styleUrl: './list-techs.component.scss',
 })
 export class ListTechsComponent {
   techs: Tech[] = techs;

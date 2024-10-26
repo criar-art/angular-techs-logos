@@ -1,0 +1,17 @@
+.input-search {
+  padding: 1rem;
+  margin: 1rem 0;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background: var(--vtl-background);
+  border: 2px solid var(--vtl-background);
+  color: var(--color-text);
+  width: 100%;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
