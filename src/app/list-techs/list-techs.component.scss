@@ -6,7 +6,22 @@
   background: var(--vtl-background);
   border: 2px solid var(--vtl-background);
   color: var(--color-text);
-  width: 100%;
+  width: calc(100% - 190px);
+}
+
+.inputs-actions {
+  display: flex;
+  gap: 20px;
+}
+.checkbox-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  label input {
+    margin-right: 1rem;
+  }
 }
 
 .not-found {
