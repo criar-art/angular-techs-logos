@@ -1,4 +1,4 @@
-import { Component, effect, signal } from '@angular/core';
+import { Component, effect, signal, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { NucleusBox } from 'nucleus-angular';
 import {
@@ -14,10 +14,27 @@ import {
   templateUrl: './list-techs.component.html',
   styleUrl: './list-techs.component.scss',
 })
-export class ListTechsComponent {
+export class ListTechsComponent implements OnInit {
   techs: Tech[] = techs;
   techsFiltered: string[] = [];
+  showRaw: boolean = false;
+  hiddenLabel: boolean = false;
   searchSignal = signal<string>('');
+
+  ngOnInit() {
+    this.showRaw = JSON.parse(localStorage.getItem('showRaw') || 'false');
+    this.hiddenLabel = JSON.parse(
+      localStorage.getItem('hiddenLabel') || 'false'
+    );
+  }
+
+  private getProperty(key: 'showRaw' | 'hiddenLabel'): boolean {
+    return this[key];
+  }
+
+  onCheckboxChange(key: 'showRaw' | 'hiddenLabel') {
+    localStorage.setItem(key, JSON.stringify(this.getProperty(key)));
+  }
 
   techsFilteredEffect = effect(() => {
     this.techsFiltered = this.techs
