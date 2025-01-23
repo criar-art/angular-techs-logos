@@ -8,11 +8,10 @@ import {
 } from '../../../projects/angular-techs-logos/src/public-api';
 
 @Component({
-  selector: 'list-techs',
-  standalone: true,
-  imports: [AngularTechsLogosModule, FormsModule, NucleusBox],
-  templateUrl: './list-techs.component.html',
-  styleUrl: './list-techs.component.scss',
+    selector: 'list-techs',
+    imports: [AngularTechsLogosModule, FormsModule, NucleusBox],
+    templateUrl: './list-techs.component.html',
+    styleUrl: './list-techs.component.scss'
 })
 export class ListTechsComponent implements OnInit {
   techs: Tech[] = techs;

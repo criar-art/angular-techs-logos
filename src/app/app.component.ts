@@ -7,11 +7,10 @@ import { ExampleComponent } from './app.example';
 import { ListTechsComponent } from './list-techs/list-techs.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [NucleusAngularApp, ListTechsComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+    selector: 'app-root',
+    imports: [NucleusAngularApp, ListTechsComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   public appVersion;

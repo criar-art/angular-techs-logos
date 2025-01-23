@@ -14,10 +14,11 @@ import {
 import { techs, Tech } from './techs/techs-data';
 
 @Component({
-  selector: 'angular-techs-logos',
-  templateUrl: './angular-techs-logos.component.html',
-  styleUrls: ['./angular-techs-logos.component.scss'],
-  encapsulation: ViewEncapsulation.None,
+    selector: 'angular-techs-logos',
+    templateUrl: './angular-techs-logos.component.html',
+    styleUrls: ['./angular-techs-logos.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    standalone: false
 })
 export class AngularTechsLogosComponent implements OnInit, OnChanges {
   @Input() list: string[] | undefined;
