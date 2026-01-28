@@ -3,6 +3,7 @@ const path = require('path');
 const terser = require('terser');
 const glob = require('glob');
 const jsonminify = require('jsonminify');
+const { execSync } = require('child_process');
 
 // Diretório de saída da build
 const outputDir = 'dist/angular-techs-logos';
@@ -38,6 +39,27 @@ async function minifyFile(filePath) {
 function minifyPackageJson() {
   try {
     const packageJsonPath = path.join(outputDir, 'package.json');
+
+    // Verifica se o arquivo existe antes de tentar minificar
+    if (!fs.existsSync(packageJsonPath)) {
+      console.log(`package.json not found at ${packageJsonPath}`);
+      console.log('Running npm run build:module to generate the library build...');
+
+      try {
+        execSync('npm run build:module', { stdio: 'inherit' });
+        console.log('Library build completed.');
+
+        // Verifica novamente se o arquivo foi criado
+        if (!fs.existsSync(packageJsonPath)) {
+          console.log(`package.json still not found after build. Skipping minification.`);
+          return;
+        }
+      } catch (buildError) {
+        console.error('Error running build:module:', buildError.message);
+        return;
+      }
+    }
+
     const content = fs.readFileSync(packageJsonPath, 'utf8');
 
     // Minifica o JSON
