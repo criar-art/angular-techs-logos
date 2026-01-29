@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/angular-techs-logos",
+    "public": "dist/angular-techs-logos/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
