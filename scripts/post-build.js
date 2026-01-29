@@ -38,6 +38,13 @@ async function minifyFile(filePath) {
 function minifyPackageJson() {
   try {
     const packageJsonPath = path.join(outputDir, 'package.json');
+
+    // Verifica se o arquivo existe antes de tentar minificar
+    if (!fs.existsSync(packageJsonPath)) {
+      console.log(`Skipping package.json minification (file not found at ${packageJsonPath})`);
+      return;
+    }
+
     const content = fs.readFileSync(packageJsonPath, 'utf8');
 
     // Minifica o JSON
